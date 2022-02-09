@@ -1,0 +1,62 @@
+table {
+    border: solid thick;
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: smaller;
+    width: 400px;
+}
+
+table th  {
+    border: solid thick;
+}
+
+table td {
+    border: solid thin;
+}
+
+.leftH, .day, .lec, .firstW, .secondW {
+    background-color: rgb(218, 230, 255);
+}
+
+.rightH {
+    background-color: rgb(211, 238, 221);
+    border-bottom: solid thick;
+}
+
+.day {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 0;
+}
+
+.lec {
+    border: solid thin;
+    width: 0;
+}
+
+.aud {
+    text-align: center;
+    border-style: solid dashed;
+}
+
+.firstW {
+    width: 1px;
+    border-top: solid thin;
+    border-bottom: dotted thin;
+}
+
+.secondW {
+    width: 1px;
+    border-top: dotted thin;
+    border-bottom: solid thin;
+}
+
+[title~="curator"] {
+    border: solid thin;
+}
+
+[title~="group"] {
+    font-size: medium;
+    border-top: solid thick;
+    border-right: solid thin;
+}
